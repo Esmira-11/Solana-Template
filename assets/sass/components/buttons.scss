@@ -1,0 +1,23 @@
+.intro-section{
+    &-button{
+        &-left{
+            button{
+                @include violet-btn();
+                font-size: 15px;
+            }
+        }
+        &-right{
+            button{
+                @include black-btn();
+            }
+        }
+    }
+}
+
+.gallery-section{
+    &-bottom{
+        button{
+            @include violet-btn();
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    &-top{
+        background: $blue-gradient;
+        font-size: 17px;
+        height: 37px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &-bottom{
+        padding: 0 200px;
+        height: 67px;
+        // background-color: rgba(0, 0, 0, 0.6);
+        background-color: #000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-right{
+            // width: 40%;
+            i{
+               font-size: 30px;
+                display: none;
+                cursor: pointer;
+            }
+            nav{
+                display: flex;
+                .nav-link{
+                    display: flex;
+                    align-items: center;
+                    margin-right: 15px;
+                    a{
+                        color: #848895;
+                        font-size: 17px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    
+    &-left{
+        font-size: 38px;
+        padding-top: 75px;
+    }
+    &-right{
+        &-top,&-center,&-bottom{
+            .about-section-right-content{
+                padding-top: 20px;
+                font-size: 16px;
+                color:  #C4C4C4;
+            }
+        }
+        &-center,&-bottom{
+            padding-top: 45px;
+        }
+    }
+}

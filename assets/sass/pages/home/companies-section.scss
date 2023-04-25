@@ -1,0 +1,13 @@
+.companies-section{
+    &-top{
+        font-size: 15px;
+        color: $title-color;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    &-bottom{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 100px;
+    }
+}

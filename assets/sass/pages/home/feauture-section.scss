@@ -1,0 +1,87 @@
+.feature-section{
+    display: flex;
+    padding: 120px 0;
+    &-left{
+        width: 40%;
+        &-title{
+            font-size: 38px;
+        }
+        &-content{
+            font-size: 16px;
+            color: #C4C4C4;
+        }
+    }
+    &-right{
+        display: flex;
+        .feature-section-right-cards-left{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            .feature-section-card-left{
+                background: rgba(0, 0, 0, 0.28);
+                border-radius: 24px;
+                width: 340px;
+                padding: 20px 20px 40px;
+                .feature-section-card-title{
+                    font-size: 28px;
+                    padding: 6px;
+                }
+               #first-title{
+                border-left: 2px solid #1FCFF1;
+               }
+               #second-title{
+                border-left: 2px solid  #9945FF;
+               }
+                .feature-section-card-content{
+                    line-height: 1.5;
+                    text-align: justify;
+                    padding-top: 10px;
+                    font-size: 17px;
+                    color: #C4C4C4;
+                }
+                .feature-section-card-number{
+                    font-size: 28px;
+                    padding: 24px 0 11px ;
+                }
+                .feature-section-card-bottom-content{
+                    font-size: 16px;
+                    color: #C4C4C4;
+                }
+            }
+        }
+        .feature-section-right-cards-right{
+            padding-bottom: 20px;
+            .feature-section-card-right{
+                background: rgba(0, 0, 0, 0.28);
+                border-radius: 24px;
+                padding: 20px 20px 40px;
+                width: 340px;
+                .feature-section-card-title{
+                    font-size: 28px;
+                    padding: 6px;
+                }
+               #third-title{
+                border-left: 2px solid #FFD512;
+               }
+               #fourth-title{
+                border-left: 2px solid  #19FB9B;
+               }
+                .feature-section-card-content{
+                    line-height: 1.2;
+                    padding-top: 10px;
+                    font-size: 17px;
+                    color: #C4C4C4;
+                }
+                .feature-section-card-number{
+                    font-size: 28px;
+                    padding: 24px 0 11px ;
+                }
+                .feature-section-card-bottom-content{
+                    font-size: 16px;
+                    color: #C4C4C4;
+                }
+            }
+           
+        }
+    }
+}
