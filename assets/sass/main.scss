@@ -54,7 +54,112 @@
 }
 
 
-@media
+@media(max-width:1254px){
+    .header{
+        &-bottom{
+           &-right{
+            .nav-links{
+                display: none;
+            }
+            i{
+                display: block;
+            }
+           }
+        }
+    }
+    .testimonials-section{
+        &-center{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &-top{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &-right{
+                padding-top: 20px;
+                ul{
+                    li{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .intro-section{
+        &-title{
+            font-size: 48px;
+        }
+        &-content{
+            font-size: 19px;
+        }
+
+    }
+
+    .about-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-left{
+            padding: 0;
+            padding-bottom: 30px;
+        }
+    }
+
+    .feature-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-left{
+            width: 100%;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+    }
+
+    .gallery-section{
+        &-center{
+            .gallery-section-center-cards{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                #first-multiple,#last-multiple{
+                    display: none;
+                }
+            }
+            
+        }
+       
+    }
+    .companies-section{
+        &-bottom{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .company{
+                padding-top: 20px;
+            }
+        }
+        
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-social-media{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &-links{
+            padding-top: 50px;
+        }
+    }
+}
 
 
 
